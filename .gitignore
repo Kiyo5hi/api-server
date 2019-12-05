@@ -123,5 +123,8 @@ public/
 
 # End of https://www.gitignore.io/api/git,node,visualstudiocode
 
-# Ignore config file
-config/.config.json
+### Config ###
+.config.json
+
+### Built Directory ###
+built/
