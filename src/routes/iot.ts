@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
 
 router.post("/", async (req, res) => {
   try {
-    res.status(201).send(await controller.insert(req.body.iot));
+    res.status(201).send(await controller.insert(req.body));
   } catch (err) {
     res.status(400).send(err);
   }
